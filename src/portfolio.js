@@ -26,7 +26,7 @@ const greeting = {
     "I'm a professional Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1DI51IeQfRUO4CtfwbcnIQIaiA3f_U90p/edit?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -186,10 +186,12 @@ const workExperiences = {
       date: "September 2021 – Present",
       desc: "Development and optimization of web applications using advanced technologies such as React.js, Redux, Material-UI.",
       descBullets: [
-        "Teamwork using Git/GitLab, Slack for effective project management and communication",
-        "Create responsive, smooth and cross-browser layouts for a flawless user experience",
-        "Create websites that meet cross-browser compatibility and accessibility standards",
-        "Application testing, bug fixing"
+        "- Creation of static and dynamic applications. Using the React framework, also native Javascript, in the OOP paradigm and functional expressions.",
+        "- Layout according to design layout, adding text, images, buttons, icons, pop-ups and chats. Connecting fonts and animations.",
+        "- Setting up adaptability for different devices and cross-browser properties.",
+        "- Setting up page interactivity, adding button functionality and internal links. Transition between pages.",
+        "- Creating asynchronous requests to the server, authorizing users, receiving data, saving them in local storage and cookies. Handling request errors. Submitting forms, validating data in forms. Testing in Postman.",
+        "- Working in a team with a backend developer and designer."
       ]
     },
     /*{
@@ -207,7 +209,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -372,7 +374,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
